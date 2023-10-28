@@ -20,7 +20,7 @@ const Testimonials = () => {
               className="basis-[33%] flex flex-col items-center justify-between gap-4 bg-white px-4 py-6 rounded-lg hover:scale-105 min-h-[300px] min-w-[300px]"
             >
               <h3 className="font-semibold text-xl text-center md:text-2xl">
-                " {testimonial.feedback} "
+                &quot; {testimonial.feedback} &quot;
               </h3>
               <div className="flex flex-row items-center justify-between gap-3">
                 {Array.from({ length: testimonial.stars }, (_, i) => {
@@ -34,7 +34,7 @@ const Testimonials = () => {
                 })}
               </div>
               <h3 className="font-semibold text-xl md:text-2xl">
-                " {testimonial.name} "
+                &quot; {testimonial.name} &quot;
               </h3>
               <p className="text-sm md:text-lg">{testimonial.designation}</p>
             </div>
